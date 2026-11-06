@@ -1,0 +1,360 @@
+DEEPCLAIM.AI
+Website content and design brief
+What the site should say, the data behind it, and how it should look
+
+Prepared for: Sriram (website build)
+From: Padmini Janaki
+Date: 5 November 2026  ·  Version: 1.0
+How to use this brief. Sections 4 and 5 contain ready-to-use website copy (in the tinted boxes). Text in [square brackets] is a placeholder to fill in. Every number on the site comes from the data bank in Section 6, with its source. Please don't change a number or its wording without checking the source, because several figures are easy to overstate (Section 3 explains why).
+
+ 1. What DeepClaim is
+DeepClaim is an AI agent for Indian hospitals that reads their bills, insurance claims and settlements, and shows the owner exactly where insurance money is lost: which insurers and procedures pay below cost, which claim cuts the hospital itself absorbs, and which of those can be prevented or recovered. Owners and finance heads can ask questions on WhatsApp, in English, Tamil or Hindi, and get answers traced back to the actual bills.
+The promise in one line: find the insurance money your hospital is leaving on the table, and get the part that's yours back.
+What it does (the five jobs)
+Job	What the hospital gets
+See	Profit for each procedure, for each payer (each insurer, government scheme and cash), using the hospital's own costs.
+Stop	Every bill is checked against the rate agreed with that insurer before it is sent, so cuts the hospital can't pass on are avoided.
+Recover	Cuts the hospital absorbs (short settlements after discharge, scheme deductions) are flagged, and an appeal is drafted for staff to review and send.
+Negotiate	Before each insurer renewal, a ready evidence pack: which procedures lose money with that insurer, volumes sent, and a proposed rate card.
+Ask	Plain-language answers on WhatsApp, plus a daily summary. Every number links back to the source bills.
+
+Who the website is for
+Visitor	What they care about	What the site must show them
+Owners, CEOs, MDs of 50–500 bed private hospitals and multi-site chains (primary buyer)	Profit, cash flow, insurer leverage, not being surprised	The size of the problem, the 'who pays' clarity, a free audit offer
+CFOs and finance heads	Accurate numbers, reconciliation, audit trail	How numbers are calculated and traced; data security
+Insurance / TPA desk heads	Less firefighting, fewer write-offs	The daily worklist and appeal drafting
+Investors and partners	Market size, credibility of the founder	Data story (Insights page) and About page
+
+Two hospital segments, two messages
+•	Mid-size hospitals (50–200 beds): usually no in-house analytics team. Message: "See, for the first time, which insurers and procedures actually make you money."
+•	Large hospitals and chains (200+ beds, multi-site): already have revenue cycle teams but limited payer-by-procedure profit views across sites. Message: "Compare every payer across every site, and walk into renewals with evidence."
+2. Positioning, message and tone
+Tagline options (pick one)
+Option	Tagline	Why it works
+A (recommended)	Find the money insurance leaves on your table.	Concrete, curious, matches the domain name; promises discovery, not magic
+B	Know which insurers really pay you.	Direct, provocative for owners in rate disputes
+C	Every claim, read deeply.	Plays on 'DeepClaim'; calm and premium
+D	Stop absorbing losses you never agreed to.	Strong for hospitals hurt by scheme deductions
+
+Three key messages (repeat them across the site)
+1.	Not every insurance cut is your loss. Some are. DeepClaim separates the cuts patients pay from the ones the hospital absorbs, and focuses only on yours.
+2.	Know your profit per procedure, per payer. Rates are under pressure; negotiate with your own numbers, not instinct.
+3.	Ask, don't dig. One WhatsApp question replaces days of Excel. Every answer traces back to the bill.
+Tone of voice
+•	Calm and precise, like a good CFO. No panic language, no 'shocking' claims.
+•	Respectful to insurers. The site argues for fair, evidence-based settlements, not a fight. Never name or criticise a specific insurer on the website.
+•	Short sentences, rupee figures, Indian context (crore, lakh, TPA, PM-JAY, NABH).
+•	Show, don't hype. Use real product views and worked examples, clearly labelled as examples.
+Accuracy rules for all website copy
+These protect our credibility with hospital finance teams, who will check our numbers.
+•	Never say hospitals lose the full amount insurers cut. Industry figures for 'disallowed' claims include cuts paid by patients. Always say part of it falls on hospitals.
+•	Never promise guaranteed recovery or a fixed % saving. Use "find", "flag", "help recover", "estimate".
+•	Label every example and sample screen as illustrative.
+•	Every statistic carries a small source line (see Section 6). Consultant estimates must be labelled as estimates.
+•	No fake testimonials, logos or hospital names. Use placeholders until pilots agree to be named in writing.
+Words to use and avoid
+Use	Avoid
+find, flag, recover, prevent, evidence, clear, traced to the bill	guaranteed, 100%, eliminate all losses, fight insurers, hack
+claim cuts, short settlement, deductions, agreed tariff	fraud (unless very specific), scam, rip-off
+hospital-absorbed cuts vs patient-paid cuts	'lost revenue' used loosely for every cut
+AI agent that drafts; your team approves	AI that 'handles everything automatically'
+
+ 3. The insight: where hospitals actually lose insurance money
+This is the core story of the website. It must be told accurately, because the simple version ("insurers cut money, hospitals lose it") is wrong in many cases.
+The big picture
+•	Insurers processed about 3.26 crore health claims in FY 2024-25 and paid out about ₹94,248 crore (NewsBytes, citing IRDAI Annual Report 2024-25).
+•	Roughly 58% of those claims were cashless (Ditto, summarising IRDAI Annual Report 2024-25). In a cashless claim the hospital treats first and waits to be paid.
+•	In FY 2023-24, of about ₹1.17 lakh crore claimed, insurers paid 71.29%, disallowed ₹15,100 crore (12.9%), repudiated ₹10,937 crore (9.34%), and 6.48% was outstanding at year end (Business Standard, citing IRDAI).
+•	Private hospitals handled 6.74 crore of the 11.69 crore PM-JAY admissions recorded by February 2026 (Upstox).
+Important: the ₹15,100 crore 'disallowed' figure is not the hospitals' loss. It includes cuts the patient pays at discharge (non-payable items, co-pay, room-rent limits). Use it on the site only as context for the size of the system, with the line: "Part of this falls on patients, part on hospitals."
+Who pays each kind of cut (put this table on the Insights page)
+Type of cut	Who usually bears it	What DeepClaim does
+Non-payable items under the policy (some consumables, admin charges)	Patient, collected at discharge	Shows and explains it; not counted as a hospital loss
+Co-pay, room-rent proportionate deduction	Patient, collected at discharge	Shows it; helps staff set expectations before admission
+Bill above the tariff agreed with the insurer	Hospital. A network hospital may not collect more than the agreed package rate from the patient (Zurich Kotak claim form)
+Checks each bill against the agreed tariff before it goes out
+Insurer settles below the final approved amount, weeks after discharge	Hospital, unless its deposit covers it or it recovers from a patient who has left. Hospitals hold 5–10% deposits for this reason (Breach Candy, RF Hospital)
+Matches each settlement to its approval; flags short payments; drafts appeals
+Deductions on PM-JAY and other government-scheme claims	Hospital. Scheme patients can't be asked to pay (Punekar News)
+Tracks deductions by reason; drafts appeals with documents
+Claims paid late	Hospital (cash tied up for weeks)	Ageing by payer; daily follow-up list
+Cashless refused before discharge	Patient pays, then claims reimbursement	Not a hospital loss; noted for patient experience
+
+Why this is getting harder for hospitals
+•	Rates under pressure. Hospitals say package rates have been frozen for years while costs rose (Business Today). Four major insurers suspended cashless services at Max Hospitals over tariff disputes (Angel One).
+•	Standardised rates for smaller hospitals. The GI Council's common empanelment platform includes a tariff negotiation step that starts from a base package offer (GI Council).
+•	Scheme viability. Over 600 private hospitals have opted out of PM-JAY since 2018, citing delayed dues and low rates (Business Standard).
+•	Faster rules, same back office. Since May 2024, insurers must decide cashless requests within one hour and final discharge authorisation within three hours; extra charges from delays beyond three hours fall on the insurer (Business Today). Discharge is faster, but the reconciliation work after it still sits with the hospital.
+How much is on the table for one hospital?
+There is no reliable public figure for hospital-absorbed cuts at a typical Indian hospital, and the site must not invent one. Instead, the website should let each hospital calculate its own number from its statements (the Claim Gap Calculator in Section 5), and offer a free audit to do it properly.
+Consultant benchmarks can be quoted as directional estimates: typical hospitals start at 12–18% claim denials against a 5–8% best-in-class level, collect 82–85% of claimable revenue against 93–96% for the best, and wait 55–90 days for payment against 35–45 days (upGrowth, consultant estimates).
+
+ 4. Site structure and home page copy
+Sitemap
+Page	Purpose	Main call to action
+Home	Hook, problem, how it works, trust	Book a free claim audit
+How it works	Data in, insight out, action; onboarding timeline	Book a free claim audit
+Solutions (3 short pages): Mid-size hospitals · Large hospitals and chains · Insurance desk	Speak to each buyer's job	Book a free claim audit
+Insights: The Claim Gap	Data story + Claim Gap Calculator (the 'interesting' page people share)	Calculate your claim gap
+Security and privacy	DPDP, India hosting, read-only access	Download security overview
+About	Founder story and mission	Talk to us
+Book a claim audit	Lead form	Submit
+
+Navigation bar: DeepClaim logo · How it works · Solutions · Insights · Security · About · [button] Book a free claim audit. On mobile, keep a sticky bottom button: "Book audit" plus a WhatsApp icon.
+Home page, section by section
+1. Hero
+HEADLINE
+Find the money insurance leaves on your table.
+SUB-HEADLINE
+DeepClaim reads your bills, claims and settlements, shows which insurers and procedures make or lose you money, and helps your team stop and recover the cuts your hospital absorbs. Just ask on WhatsApp.
+BUTTONS
+Primary: Book a free claim audit
+Secondary: Calculate your claim gap →
+SMALL LINE UNDER BUTTONS
+Read-only access · Hosted in India · Your team approves every action
+Visual: an animated claim bill on the right. As the visitor scrolls, line items light up: teal for 'paid', amber for 'patient-paid cut', coral for 'hospital-absorbed cut'. A small counter at the bottom adds up only the coral lines. This visual explains the whole product in five seconds.
+2. Numbers band (four large figures)
+Big number	Label under it	Source line (small, grey)
+3.26 crore	health insurance claims handled by insurers in a year	IRDAI Annual Report 2024-25
+~58%	of them cashless: the hospital treats first, gets paid later	IRDAI Annual Report 2024-25
+₹15,100 crore	cut from health claims as 'disallowed' in FY24. Part falls on patients, part on hospitals	IRDAI Annual Report 2023-24
+600+	private hospitals have left PM-JAY since 2018, citing low rates and delayed dues	Union Health Ministry, via Business Standard
+
+3. The problem: "Where the money slips away"
+SECTION HEADLINE
+Not every insurance cut is your loss. Some are, and nobody is tracking them.
+CARD 1 · RATES THAT DON'T COVER COST
+Package rates have barely moved while your costs rose. Some procedures may be losing money with some payers, and today nobody can tell you which.
+CARD 2 · CUTS AFTER THE PATIENT GOES HOME
+Insurers can settle below the approved amount weeks after discharge. That's why some hospitals hold a 5–10% deposit. When the cut is bigger, you're chasing a patient who has already left.
+CARD 3 · BILLS ABOVE THE AGREED TARIFF
+If a bill crosses the rate you agreed with the insurer, the excess is cut and can't be charged to the patient. Usually it's a billing mistake that could have been caught.
+CARD 4 · SCHEME DEDUCTIONS
+Under PM-JAY and other schemes, patients can't be asked to pay. Every rupee deducted is yours to absorb.
+CARD 5 · MONEY WAITING
+Cashless means you fund the treatment until the insurer pays. Every extra week of waiting is working capital you can't use.
+4. How it works (four steps, with icons)
+STEP 1 · CONNECT
+Share the exports you already have: bills, claim and settlement statements, bank credits, your agreed tariffs. No new software for your staff.
+STEP 2 · UNDERSTAND
+DeepClaim matches every claim to its bill, approval and settlement, separates patient-paid cuts from hospital-absorbed ones, and estimates profit per procedure for each payer.
+STEP 3 · ACT
+Bills are checked against agreed tariffs before they go out. Short settlements get appeal drafts. Renewals get an evidence pack. Your team reviews and sends.
+STEP 4 · ASK
+"How much did we absorb in cuts last month?" Send a voice note in English, Tamil or Hindi. Get the answer, and the bills behind it, in seconds.
+5. Product glimpse (illustrative WhatsApp exchange)
+OWNER (VOICE NOTE)
+"Last month, how much did insurers cut that we had to absorb?"
+DEEPCLAIM
+"₹4.6 lakh across 38 claims. Two payers account for 61%. 22 cuts look recoverable, and appeals are drafted for your TPA desk to review. Tap to see the bills."
+Illustrative example
+Also show one insight card: "Knee replacement · margin by payer · Insurer A −6% · Insurer B +14% · Cash +22%" (labelled illustrative; never real insurer names).
+6. Built for (three tiles linking to Solutions pages)
+MID-SIZE HOSPITALS
+See your real profit by procedure and payer, without hiring an analytics team.
+LARGE HOSPITALS AND CHAINS
+Compare payers across every site and negotiate renewals with evidence.
+INSURANCE DESK
+One daily list of short settlements and deductions, with appeals already drafted.
+7. Trust strip
+FOUR SHORT POINTS
+Read-only. Your billing software stays exactly as it is.
+Hosted in India. Patient data never leaves the country.
+DPDP-ready. Patient identifiers pseudonymised, role-based access, full audit trail.
+Humans approve. We never contact insurers or patients on our own.
+8. Founder note (short)
+COPY [PADMINI TO CONFIRM WORDING]
+"I've run a clinic network from the owner's chair. Before that, I built dispute and fraud products at PayPal and was a Senior Product Manager at Change Healthcare. DeepClaim is the tool hospital owners need: one that tells you, plainly, which part of every insurance cut is yours." — Padmini Janaki, Founder
+9. FAQ (short, also on the Audit page)
+Question	Answer
+Does DeepClaim replace our hospital software?	No. It only reads exports from your existing systems. Nothing changes for your billing team.
+Will insurers see our data?	No. DeepClaim works for the hospital. Nothing is shared with insurers unless your team sends an appeal.
+How is patient data protected?	Hosted in India, patient identifiers pseudonymised, encrypted, with role-based access and an audit log. We sign a data processing agreement with every hospital.
+Isn't every insurance cut a loss for the hospital?	No. Many cuts are paid by the patient at discharge. DeepClaim separates those and focuses on the ones your hospital absorbs.
+Do you guarantee a recovery amount?	No. We show you what is recoverable and help your team appeal. The audit shows the size of your opportunity before you commit.
+How long does it take to start?	Most hospitals can share 6 months of exports in a few days. You see the first findings in about two weeks. [confirm once pilots run]
+What does it cost?	Pricing depends on hospital size. Start with a free claim audit.
+
+10. Final call to action
+HEADLINE
+What are your claims really worth?
+BODY
+Share 6 months of claim and settlement data. In two weeks, we'll show you which cuts you absorbed, which were avoidable, and which insurers and procedures pay you below cost. Free, no obligation.
+BUTTON
+Book a free claim audit
+
+ 5. Other pages
+Insights: "The Claim Gap" (the page people will share)
+Make this an editorial, scroll-driven data story. It earns links, LinkedIn shares and investor interest.
+HEADLINE
+The Claim Gap: what India's hospitals absorb, and what they don't have to
+INTRO
+India's insurers handle crores of health claims a year, and more than half are cashless. Between the bill and the bank credit, money is cut. Some of it is fair. Some is paid by patients. And some quietly becomes the hospital's loss. Here's how to tell them apart.
+Sections and charts:
+1.	Where the claimed rupee went (FY24). Donut chart: paid 71.29% · disallowed 12.9% · repudiated 9.34% · outstanding 6.48% (IRDAI via Business Standard). Note under chart: "Disallowed amounts include cuts paid by patients."
+2.	Claims settled by number, three years. Bar chart: 85.66% (2022-23), 82.46% (2023-24), 87.50% (2024-25) (TaxTMI, quoting the Finance Ministry).
+3.	Who pays each cut. The table from Section 3, designed as an interactive list (tap a cut type to see who pays and what to do).
+4.	What good looks like. Consultant benchmarks for denials, collection and payment days, clearly labelled as estimates (upGrowth).
+5.	The new rules. Timeline: IRDAI master circular (May 2024: 1-hour cashless decision, 3-hour discharge); National Health Claims Exchange live since 2024 (MoHFW); DPDP Rules phase-in from November 2026 to May 2027 (CivilsDaily).
+6.	Calculate your own claim gap (below).
+Claim Gap Calculator (interactive)
+The calculator must use the hospital's own figures and correct mechanics. It must not apply an industry percentage to their revenue.
+Input (from the hospital's statements)	Notes
+A. Amount claimed from insurers and schemes, for claims fully settled in the last 3 or 6 months (₹)	Exclude claims still pending, so pending amounts aren't counted as cuts
+B. Amount actually settled by insurers and schemes for those claims (₹)	
+C. Amount collected from patients towards those cuts (co-pay, non-payables, deposits adjusted) (₹)	For scheme claims this is always ₹0
+D. Average days from discharge to settlement	
+E. Your annual cost of borrowing (%)	Used only for the 'cost of waiting' figure
+
+Output	Formula	How to label it
+Cuts your hospital absorbed	A − B − C	"In this period, your hospital absorbed ₹X in claim cuts."
+Absorbed share	(A − B − C) ÷ A	"That's Y% of what you claimed."
+Annualised	(A − B − C) × 12 ÷ months in period	"About ₹Z a year at this rate."
+Recovery scenario	Annualised × slider (10–40%)	"Scenario: if you recovered N% of this, ₹W a year." Never call it a promise
+Cost of waiting	(A ÷ months) × (D ÷ 30) × E	"Money tied up in pending claims costs you about ₹V a year in interest."
+
+Worked example to test the build (hypothetical numbers, not a benchmark): A = ₹3 crore over 3 months, B = ₹2.55 crore, C = ₹27 lakh → absorbed = ₹18 lakh (6% of claimed), about ₹72 lakh a year. With D = 75 days and E = 11%: ₹1 crore a month × 2.5 × 11% ≈ ₹27.5 lakh a year cost of waiting.
+Below the result: "Want us to calculate this precisely from your statements?" → Book a free claim audit. Results are calculated in the browser; nothing is stored unless the visitor submits the form.
+How it works page
+HEADLINE
+From your exports to clear answers, in two weeks
+Content: the four steps from the home page in more depth; a diagram showing data sources (billing software, TPA and scheme statements, bank credits, agreed tariffs, cost sheets) flowing into DeepClaim and out to WhatsApp answers, worklists and renewal packs; and an onboarding timeline:
+•	Days 1–5: data agreement signed, exports shared, columns mapped.
+•	Week 2: numbers reconciled with your finance team; first findings.
+•	Week 3 onwards: WhatsApp answers, daily worklist, renewal packs.
+KEY LINE
+Every number DeepClaim shows can be traced back to the bill it came from. Your finance head signs off how each number is calculated.
+Solutions pages (one short page each)
+Mid-size hospitals
+HEADLINE
+Your first clear view of what insurance really pays you
+POINTS
+Profit by procedure and payer, from your own costs
+Bills checked against agreed tariffs before they go out
+A free audit to size your claim gap before you commit
+Large hospitals and chains
+HEADLINE
+Every payer, every site, one view, and evidence for every renewal
+POINTS
+Compare payer performance across sites
+Renewal packs built from your volumes and costs
+Works alongside your revenue cycle team and existing systems
+Insurance desk
+HEADLINE
+Less chasing, fewer write-offs
+POINTS
+One daily list of short settlements and deductions, sorted by amount and age
+Appeal drafts with the bill, tariff and approval attached; you review and send
+Settlements matched to claims automatically
+Security and privacy page
+HEADLINE
+Built to protect patient data from day one
+POINTS
+Hosted and processed in India
+Patient identifiers pseudonymised on arrival; data encrypted at rest and in transit
+Read-only access to your systems
+Role-based access; counsellors never see financials
+Full audit log of every question and action
+Data processing agreement with every hospital; data returned or deleted when you leave
+Designed for the DPDP Act and Rules, which phase in from November 2026 to May 2027
+Only claim certifications (ISO 27001, SOC 2) once they are actually held. Have a lawyer review this page, the privacy policy and the terms before launch.
+About page
+MISSION
+Indian hospitals carry more of the country's insurance load every year. They deserve to know exactly what that insurance pays them, and to keep what they've earned.
+FOUNDER [PADMINI TO CONFIRM]
+Padmini Janaki has run LIVF.Women, a fertility clinic network in Chennai, for six years. Before that she was a technical product manager for disputes and fraud at PayPal India and a Senior Product Manager at Change Healthcare. She is a World Economic Forum Young Global Leader.
+Book a claim audit page
+HEADLINE
+Book a free claim audit
+FORM FIELDS
+Name · Role · Hospital name · City · Number of beds (select: under 50 / 50–100 / 100–200 / 200–500 / 500+) · Number of sites
+Phone (WhatsApp) · Work email
+Main insurers and schemes you work with (optional)
+Hospital software you use (optional)
+Consent checkbox: "I agree to be contacted about DeepClaim." Link to privacy policy
+WHAT HAPPENS NEXT
+1. We call you within one working day.
+2. We sign a data agreement and you share 6 months of exports.
+3. In about two weeks, we walk you through your claim gap.
+
+ 6. Data bank (approved figures and sources)
+Use only these figures on the website, with the wording shown. Re-check sources before launch; insurance data is updated every year.
+Figure	Safe wording for the site	Source
+3.26 crore claims; ₹94,248 crore paid (FY25)	"Insurers handled 3.26 crore health claims in FY25 and paid about ₹94,000 crore."	NewsBytes, citing IRDAI AR 2024-25
+87% settled, 8% repudiated, ~5% pending by number (FY25)	"About 87% of claims were settled; 8% were rejected."	Insurance Business, citing IRDAI AR 2024-25
+~58% of claims cashless (FY25)	"More than half of health claims are cashless."	Ditto, summarising IRDAI AR 2024-25
+FY24: ₹1.17 lakh crore claimed; 71.29% paid; ₹15,100 crore (12.9%) disallowed; ₹10,937 crore repudiated; 6.48% outstanding	"₹15,100 crore was disallowed from health claims in FY24. Part falls on patients, part on hospitals."	Business Standard, citing IRDAI AR 2023-24
+Health premiums above ₹1.2 lakh crore in FY25, growing ~9%	"Health insurance is a ₹1.2 lakh crore-a-year market and growing."	Finance Ministry via LatestLY
+Cashless decision within 1 hour; discharge authorisation within 3 hours; delay charges borne by insurer	"Discharge must be authorised within three hours."	Business Today on IRDAI master circular, May 2024
+Private hospitals: 6.74 crore of 11.69 crore PM-JAY admissions (to Feb 2026)	"Private hospitals handle more than half of PM-JAY admissions."	Upstox
+600+ private hospitals opted out of PM-JAY since 2018	As written, adding "citing delayed dues and low rates"	Business Standard
+Scheme patients can't be charged by empanelled hospitals	"Under PM-JAY, every rupee deducted is the hospital's to absorb."	Punekar News
+Network hospital can't collect above agreed package rates	"Bills above the agreed tariff can't be passed on to the patient."	Zurich Kotak claim form
+Hospitals hold 5–10% deposits against short settlement	"Some hospitals hold a 5–10% deposit because insurers can settle below the approved amount."	Breach Candy; RF Hospital
+Insurers suspended cashless at Max Hospitals over tariffs	"Rate disputes between insurers and hospitals are now public." (don't name insurers)	Angel One
+Denials 12–18% typical vs 5–8% best; collection 82–85% vs 93–96%; payment 55–90 days vs 35–45	Always prefix "Consultant estimates suggest…"	upGrowth (estimates)
+Insurance and schemes 60–75% of inpatient revenue in urban centres	"Estimates put insurance at 60–75% of inpatient revenue in cities."	Mynd (estimate)
+National Health Claims Exchange: 34 insurers and TPAs live, ~300 hospitals ramping up (July 2024)	"India is moving to a common digital claims exchange."	MoHFW
+
+ 7. Visual theme
+Concept: "Deep Ledger"
+Calm precision with a sense of discovery. Think of a well-kept financial ledger and an editorial data report, not a typical hospital website. No stock photos of smiling doctors, stethoscopes or blue crosses. The hero is the claim itself: a bill being read line by line, with money colour-coded by where it went.
+Why this works: hospital owners see dozens of 'healthcare software' sites that all look blue and clinical. A confident, finance-grade look signals that DeepClaim is about money and evidence, and the colour coding (paid / patient-paid / hospital-absorbed) teaches the core idea visually.
+Colour palette
+Swatch	Name	Hex	Use it for
+	Ink Navy	#0B1F33	Headlines, body text, dark sections (hero, numbers band, footer)
+	Paper	#F7F5F0	Main page background; warm, report-like
+	White	#FFFFFF	Cards, forms, calculator
+	Slate	#5B6B7A	Secondary text, source lines, captions
+	Ledger Teal	#0B6E5F	Primary buttons and links; 'paid' and 'recovered' money
+	Mint	#2BB59A	Highlights and charts on dark backgrounds
+	Signal Amber	#E8A33D	'Patient-paid' cuts, pending items (graphics only)
+	Leak Coral	#E4572E	'Hospital-absorbed' cuts in graphics and big numbers on navy
+	Rule	#E3DED3	Borders, dividers, table lines
+
+Contrast: use Ledger Teal (not Mint) for buttons and links on light backgrounds, so text passes accessibility contrast. Amber and Coral are for shapes, charts and large numbers, not small body text.
+Typography (all free Google Fonts)
+Role	Font	Use
+Display headlines	Fraunces (semi-bold, slightly soft)	H1, H2, big statements; gives an editorial, trustworthy feel
+Body and interface	Inter	Paragraphs, navigation, buttons, forms (16–18px body)
+Numbers and data	IBM Plex Mono	Rupee figures, stats, the claim-bill animation, tables; makes numbers feel exact
+Indian languages (later)	Noto Sans Tamil, Noto Sans Devanagari	When adding Tamil and Hindi pages
+
+Layout, imagery and motion
+•	Layout: generous white space; 12-column grid, max content width about 1,200px; sections alternate Paper and Ink Navy. Big numbers, short paragraphs.
+•	Signature visual: the animated claim bill (hero), reused in small form across the site as the brand motif.
+•	Imagery: real product views (WhatsApp chat, worklist, margin card) in clean phone and laptop frames; simple line icons; data charts in the brand colours. If photos are used, they should be original photos of Indian hospital billing and insurance desks, not stock.
+•	Motion: subtle and purposeful: numbers count up when they scroll into view, bill lines highlight in sequence, charts draw in. Respect the visitor's 'reduce motion' setting.
+•	Mobile first: most owners will open the link on WhatsApp on their phone. Test every section at 375px width; keep the sticky 'Book audit' and WhatsApp buttons.
+•	Accessibility: WCAG AA contrast, minimum 16px text, keyboard-friendly calculator and form, alt text on all visuals.
+Logo direction
+•	Wordmark "DeepClaim" in Fraunces or a custom geometric sans, Ink Navy.
+•	Symbol idea: a folded claim document whose lower corner reveals a deeper layer in Ledger Teal ("reading beneath the claim"), or a lens over a ruled line.
+•	Must work in one colour, at favicon size, and on WhatsApp profile images.
+Alternative theme (if you want something lighter)
+"Clinical Clear": all-white background, a single cobalt accent (#2347D6), Inter throughout, IBM Plex Mono for numbers. Safer and more conventional, but less memorable. I recommend Deep Ledger.
+
+ 8. SEO, sharing and build notes
+Metadata
+Item	Content
+Page title (home)	DeepClaim: find the insurance money your hospital leaves on the table
+Meta description	DeepClaim shows Indian hospitals which insurers and procedures make or lose money, and helps recover the claim cuts the hospital absorbs. Book a free claim audit.
+Search phrases to target	hospital insurance claim deductions, TPA short settlement, cashless claim settlement hospital, PM-JAY claim deductions, hospital revenue cycle India, insurer package rates hospital, hospital claim audit
+Social share image	Ink Navy card with the claim-bill motif and the tagline
+Structured data	Organization, FAQPage (home and audit page), Article (Insights page)
+
+Build notes for Sriram
+•	Platform: Next.js (best for the calculator and future product pages) or Webflow/Framer for speed. Either is fine; the calculator needs custom JavaScript.
+•	Calculator: runs in the browser; store nothing unless the form is submitted. Format rupees in lakh/crore (e.g. ₹27.5 lakh, ₹3 crore).
+•	Forms: send leads to email and a WhatsApp notification; add spam protection; show a thank-you message with next steps.
+•	Analytics: track audit bookings, calculator completions and WhatsApp clicks; cookie consent banner with non-essential cookies off by default.
+•	Speed: under 2.5 seconds to load on 4G mobile; compress animations (Lottie or SVG, not video).
+•	Legal before launch: privacy policy, terms of use and the Security page reviewed by a lawyer; a trademark search on "DeepClaim" (a quick web search found no company using the name, but that isn't a legal clearance).
+•	Placeholders to fill: founder note wording, pilot timelines, any client names (only with written permission), contact details.
+Launch checklist
+1.	Every statistic on the site matches Section 6 and shows its source line.
+2.	Every example and product screen is labelled 'illustrative'.
+3.	No real insurer or hospital named negatively or without permission.
+4.	Calculator tested with the worked example in Section 5.
+5.	Mobile tested on a mid-range Android phone over 4G.
+6.	Privacy policy, terms and cookie banner live.

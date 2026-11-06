@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", Menlo, Monaco, Consolas, monospace;
+
+  --color-ink-navy: #0B1F33;
+  --color-ink-navy-dark: #071524;
+  --color-ink-navy-light: #16324F;
+  --color-paper: #F7F5F0;
+  --color-paper-light: #FAF9F5;
+  --color-paper-card: #FFFFFF;
+  --color-slate-lead: #5B6B7A;
+  --color-slate-light: #8A99A8;
+  --color-ledger-teal: #0B6E5F;
+  --color-ledger-teal-hover: #085549;
+  --color-ledger-teal-light: #E6F3F0;
+  --color-mint: #2BB59A;
+  --color-mint-light: #EBF8F5;
+  --color-signal-amber: #E8A33D;
+  --color-signal-amber-light: #FEF6EB;
+  --color-leak-coral: #E4572E;
+  --color-leak-coral-light: #FDEDE9;
+  --color-rule: #E3DED3;
+  --color-rule-dark: #233547;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-paper);
+    color: var(--color-ink-navy);
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+
+  .font-data, .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbar and accessibility focus rings */
+*:focus-visible {
+  outline: 2px solid var(--color-ledger-teal);
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

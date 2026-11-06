@@ -1,0 +1,6 @@
+{
+  "name": "DeepClaim.AI",
+  "description": "AI agent for Indian hospitals to discover absorbed insurance claim cuts, see profit per procedure and payer, and audit claims.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
